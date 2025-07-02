@@ -1,5 +1,5 @@
 import ProductCard from "../ProductCard/ProductCard";
-
+import product1 from "@/assets/product1.webp";
 
 const products = [
   {
@@ -9,7 +9,7 @@ const products = [
     price: 260,
     originalPrice: 300,
     discount: 13,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product1,
   },
   {
     id: "2",
@@ -18,7 +18,7 @@ const products = [
     price: 120,
     originalPrice: 130,
     discount: 8,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product1,
   },
   {
     id: "3",
@@ -27,7 +27,7 @@ const products = [
     price: 25,
     originalPrice: 30,
     discount: 17,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product1,
   },
   {
     id: "4",
@@ -36,7 +36,7 @@ const products = [
     price: 160,
     originalPrice: 165,
     discount: 3,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product1,
   },
   {
     id: "5",
@@ -45,7 +45,7 @@ const products = [
     price: 85,
     originalPrice: 95,
     discount: 10,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product1,
   },
   {
     id: "6",
@@ -54,7 +54,7 @@ const products = [
     price: 180,
     originalPrice: 190,
     discount: 5,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product1,
   },
   {
     id: "7",
@@ -63,7 +63,7 @@ const products = [
     price: 65,
     originalPrice: 70,
     discount: 6,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product1,
   },
   {
     id: "8",
@@ -72,7 +72,7 @@ const products = [
     price: 120,
     originalPrice: 135,
     discount: 10,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product1,
   },
 ];
 

@@ -1,5 +1,7 @@
 import ProductSliderSection from "../ProductSliderSection/ProductSliderSection";
-
+import product1 from "@/assets/product1.webp";
+import product2 from "@/assets/product2.webp";
+import product3 from "@/assets/product3.webp";
 
 const featuredProducts = [
   {
@@ -9,7 +11,7 @@ const featuredProducts = [
     price: 850,
     originalPrice: 950,
     discount: 10,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product1,
   },
   {
     id: "fp2",
@@ -18,7 +20,7 @@ const featuredProducts = [
     price: 320,
     originalPrice: 380,
     discount: 15,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product2,
   },
   {
     id: "fp3",
@@ -27,7 +29,7 @@ const featuredProducts = [
     price: 220,
     originalPrice: 250,
     discount: 12,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product3,
   },
   {
     id: "fp4",
@@ -36,7 +38,7 @@ const featuredProducts = [
     price: 450,
     originalPrice: 500,
     discount: 10,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product1,
   },
   {
     id: "fp5",
@@ -45,7 +47,7 @@ const featuredProducts = [
     price: 680,
     originalPrice: 750,
     discount: 9,
-    image: "/placeholder.svg?height=300&width=300",
+    image: product2,
   },
 ];
 

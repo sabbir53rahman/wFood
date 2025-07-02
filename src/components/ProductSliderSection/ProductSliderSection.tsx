@@ -7,6 +7,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import "swiper/css";
 import "swiper/css/navigation";
 import ProductCard from "../ProductCard/ProductCard";
+import { StaticImageData } from "next/image";
 
 interface Product {
   id: string;
@@ -15,7 +16,7 @@ interface Product {
   price: number;
   originalPrice?: number;
   discount?: number;
-  image: string;
+  image: string | StaticImageData;
 }
 
 interface ProductSliderSectionProps {
