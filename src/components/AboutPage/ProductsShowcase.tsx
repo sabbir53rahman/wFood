@@ -13,7 +13,7 @@ export default function ProductsShowcase() {
       description:
         "উচ্চ মানের সুতি কাপড়ে এমব্রয়ডারি কাজ। যেকোনো অনুষ্ঠানে পরার জন্য দারুণ উপযোগী।",
       image: page1,
-      link: "/ThreePiceLanding",
+      link: "/threePiceLanding",
       category: "থ্রিপিস",
       price: "১২০০ টাকা",
       bgColor: "from-pink-100 to-pink-200",
